@@ -1,0 +1,289 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container-lamsi {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(src/1440x810.png);
+  background-position: center;
+  background-size: 100% 100%;
+}
+.content-lamsi {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-around;
+  gap: 3vw;
+}
+.penjelasan-lamsi {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.judul-lamsi {
+  display: flex;
+  justify-content: center;
+  gap: 1vw;
+}
+/* .isi-lamsi {
+  width: 90%;
+} */
+.text-lamsi {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1.5vw;
+}
+.click-button-lamsi {
+  margin-top: 3vw;
+  display: flex;
+  justify-content: center;
+}
+.click-button-lamsi button {
+  width: 9vw;
+  height: 3vw;
+  font-size: 1.3vw;
+}
+.click-button-lamsi button:hover {
+  background-color: black;
+  color: #bbb;
+}
+.picture-lamsi {
+  display: flex;
+  flex-direction: row;
+  margin-top: 7vw;
+  gap: 1vw;
+}
+.Tembakau-lamsi {
+  font-size: 8vw;
+  font-weight: 900;
+  letter-spacing: -0.4vw;
+}
+.lamsi-lamsi {
+  font-size: 8vw;
+  font-weight: 900;
+  letter-spacing: -0.4vw;
+  color: #8d493a;
+}
+.gambar-1-lamsi {
+  width: 14vw;
+  height: auto;
+}
+.gambar-2-lamsi {
+  width: 17vw;
+  height: auto;
+}
+/* @media screen and (max-width: 640px) and (min-width: 635px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  .container-lamsi {
+    height: 100vh;
+    background-image: url(image/640x956.png);
+    gap: 0;
+  }
+  .content-lamsi {
+    width: 100%;
+  }
+  .picture-lamsi {
+    gap: 0;
+    width: 0;
+  }
+  .judul-lamsi {
+    gap: 0;
+  }
+  .judul-lamsi span {
+    padding-left: 5vw;
+    font-size: 13vw;
+    letter-spacing: -4px;
+  }
+  .gambar-2-lamsi {
+    display: none;
+  }
+  .gambar-1-lamsi {
+    width: 55vw;
+    height: 40vh;
+    position: absolute;
+    top: 20vh;
+    right: 22vw;
+  }
+  .click-button-lamsi button {
+    width: 18vw;
+    height: 6vh;
+    font-size: 3vw;
+  }
+  .text-lamsi {
+    padding-left: 2vw;
+    font-size: 3.4vw;
+  }
+  .isi-lamsi {
+    padding-top: 50vh;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 763px) {
+  body {
+    width: 768px;
+    height: 1365px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .container-lamsi {
+    height: 1365px;
+    background-image: url(image/768x1365.png);
+    gap: 0;
+  }
+  .content-lamsi {
+    width: 100%;
+    justify-content: none;
+  }
+  .picture-lamsi {
+    gap: 0;
+    width: 0;
+  }
+  .judul-lamsi {
+    gap: 0;
+  }
+  .judul-lamsi span {
+    padding-left: 20px;
+    font-size: 102px;
+    letter-spacing: -4px;
+  }
+  .gambar-2-lamsi {
+    display: none;
+  }
+  .gambar-1-lamsi {
+    width: 439px;
+    height: 470px;
+    position: absolute;
+    top: 265px;
+    right: 165px;
+  }
+  .text-lamsi {
+    padding-left: 10px;
+    font-size: 26px;
+  }
+  .isi-lamsi {
+    padding-top: 600px;
+  }
+  .click-button-lamsi button {
+    width: 210px;
+    height: 70px;
+    font-size: 28px;
+  }
+}
+/*
+@media screen and (max-width: 1024px) and (min-width: 1019px) {
+  body {
+    width: 1024px;
+    height: 576px;
+    padding: 0;
+    margin: 0;
+  }
+  .container-lamsi {
+    background-image: url(image/1024x576\ .png);
+  }
+  .content-lamsi {
+    padding-right: 20px;
+  }
+  figure {
+    margin: 0;
+  }
+  .judul-lamsi span {
+    font-size: 82px;
+    letter-spacing: -6px;
+  }
+  .text-lamsi {
+    font-size: 18px;
+  }
+  .gambar-1-lamsi {
+    width: 180px;
+    height: 239.5px;
+  }
+  .gambar-2-lamsi {
+    width: 220px;
+    height: 293px;
+  }
+  .click-button-lamsi button {
+    width: 170px;
+    height: 56.6px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1280px) and (min-width: 1275px) {
+  body {
+    width: 1280px;
+    height: 720px;
+    padding: 0;
+    margin: 0;
+  }
+  .container-lamsi {
+    background-image: url(image/1280x720\ .png);
+  }
+  .content-lamsi {
+    padding-right: 20px;
+  }
+  .judul-lamsi span {
+    font-size: 90px;
+    letter-spacing: -6px;
+  }
+  .text-lamsi {
+    font-size: 22px;
+  }
+  .gambar-1-lamsi {
+    width: 190px;
+    height: 253px;
+  }
+  .gambar-2-lamsi {
+    width: 230px;
+    height: 306px;
+  }
+  .click-button-lamsi button {
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1536px) and (min-width: 1531px) {
+  body {
+    width: 1536px;
+    height: 864px;
+    padding: 0;
+    margin: 0;
+  }
+  .container-lamsi {
+    background-image: url(image/1536x864\ .png);
+  }
+  .content-lamsi {
+    padding-right: 60px;
+  }
+  .judul-lamsi span {
+    font-size: 120px;
+    letter-spacing: -6px;
+  }
+  .text-lamsi {
+    font-size: 28px;
+  }
+  .gambar-1-lamsi {
+    width: 220px;
+    height: 293px;
+  }
+  .gambar-2-lamsi {
+    width: 270px;
+    height: 360px;
+  }
+  .click-button-lamsi button {
+    width: 200px;
+    height: 66px;
+    font-size: 24px;
+  }
+} 
+    */
